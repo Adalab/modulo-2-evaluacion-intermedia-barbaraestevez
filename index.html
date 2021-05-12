@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./CSS/main.css" />
     <title>Módulo 2 Evaluación intermedia Bárbara Estévez</title>
   </head>
   <body>
+    <h1 class="title">Adivina el número</h1>
+    <!-- <p class="subtitle">Introduce aquí tu número</p> -->
+    <form class="form">
+      <label for="input" class="subtitle">Introduce aquí tu número</label>
+      <input type="number" name="number" class="js-input" value="" />
+      <input type="button" value="Prueba" class="js-submit" />
+      <!-- <button class="button">Prueba</button> -->
+    </form>
+    <span class="js-result"></span>
+    <span class="js-hint">Pista: Escribe el número y dale a Prueba</span>
+    <span class="js-trials">Número de intentos:</span>
     <script type="text/javascript" src="./JS/main.js"></script>
   </body>
 </html>
