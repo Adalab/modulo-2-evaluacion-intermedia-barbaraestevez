@@ -15,15 +15,14 @@
   <body>
     <h1 class="title">Adivina el número</h1>
     <!-- <p class="subtitle">Introduce aquí tu número</p> -->
-    <form class="form">
+    <form class="form" action="#">
       <label for="input" class="subtitle">Introduce aquí tu número</label>
-      <input type="number" name="number" class="js-input" value="" />
-      <input type="button" value="Prueba" class="js-submit" />
-      <!-- <button class="button">Prueba</button> -->
+      <input type="number" name="number" class="js-input input" value="" />
+      <input type="button" value="Prueba" class="js-button button" />
     </form>
     <span class="js-result"></span>
-    <span class="js-hint">Pista: Escribe el número y dale a Prueba</span>
-    <span class="js-trials">Número de intentos:</span>
+    <div class="js-hint hint">Pista: Escribe el número y dale a Prueba</div>
+    <span class="js-trials trials">Número de intentos:</span>
     <script type="text/javascript" src="./JS/main.js"></script>
   </body>
 </html>
