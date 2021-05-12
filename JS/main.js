@@ -23,9 +23,7 @@ if (number < 1 || number > 100) {
     hint.innerHTML = "Pista: Demasiado alto";
   } else (number === randomNumber) {
     hint.innerHTML = "Has ganado, campeona!!!";
-  } else {
-    text.innerHTML = "El número debe estar entre 1 y 100";
-  }
+  } 
   increaseCounter();
 }
 function increaseCounter () {
