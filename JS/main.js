@@ -21,7 +21,7 @@ if (number < 1 || number > 100) {
     hint.innerHTML = "Pista: Demasiado bajo";
   } else if (number > randomNumber) {
     hint.innerHTML = "Pista: Demasiado alto";
-  } else (number === randomNumber) {
+  } else if (number === randomNumber) {
     hint.innerHTML = "Has ganado, campeona!!!";
   } 
   increaseCounter();
